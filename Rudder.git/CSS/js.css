@@ -1,0 +1,80 @@
+.col-1 { width: 8.33333333333333%; }
+.col-2 { width: 16.6666666666667%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.3333333333333%; }
+.col-5 { width: 41.6666666666667%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.3333333333333%; }
+.col-8 { width: 66.6666666666667%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.3333333333333%; }
+.col-11 { width: 91.6666666666667%; }
+.col-12 { width: 100%; }
+
+body {
+	font-family: Segoe UI, Helvetica, sans-serif;
+	background-color: #33CCCC;
+	color: white;
+	margin: 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: inherit;
+	font-weight: 100;
+}
+
+.row {
+	height: 150px;
+	padding: 2px 7px 2px 7px;
+}
+
+.row-white { background-color: white; color: #00002C; text-align: right; }
+.row-colour, #logo { background-color: #33CCCC; }
+
+#navmenu {
+	text-align: right;
+	padding-right: 60px;
+}
+
+header {
+	height: 500px;
+	font-size: 40px;
+	font-weight: 400;
+	padding: 90px 40px 0 0;
+}
+
+#logo {
+    position: absolute;
+    right: 60px;
+    height: 250px;
+    width: 180px;
+    padding-left: 10px;
+}
+
+#logo-text {
+    position: absolute;
+    bottom: 15px;
+}
+
+#topimage {
+    background-image: url("../images/yacht-NOT-FREE.jpg");
+    background-size: cover;
+}
+
+#keypoints {
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.keypoint {
+	height: 150px;
+	color: #00002C;
+	text-align: center;
+	min-width: 200px;
+}
